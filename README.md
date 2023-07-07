@@ -12,13 +12,13 @@ As per the assignment, the application is developed using storyboards, and its w
 5.Once the details are entered, and the submit button is clicked. User is navigated to a home screen where we can see a search bar in the top of the screen followed by a table view.
 6.On this screen, orientation is locked. Only potrait mode is supported.
 7.User is expected to enter a programming language name in the search bar and click enter key.
-2.  When the user enters any programming language and hits enter, GitHub API is called.
-3. The results which are fetched from API are saved to coredata. Then using the same search criteria results are fetched from coredata and listed in the table view below the search bar.
-4. If API does not give a valid response, then a message �no data available� will be displayed in the place of table rows.
-5. User is allowed to select a row from the tableview, once any row is selected, then app navigates to another view controller which shows the details of repository with editable text fields.
-6. User is allowed to edit and save the data, by pressing save button on the navigation bar
-7. The saved info can be seen on the tableview with its row selected  and highlighted.
-8. The changes made to the data will be saved to coredata.
+8.  When the user enters any programming language and hits enter, GitHub API is called.
+9. The results which are fetched from API are saved to coredata. Then using the same search criteria results are fetched from coredata and listed in the table view below the search bar.
+10. If API does not give a valid response, then a message �no data available� will be displayed in the place of table rows.
+11. User is allowed to select a row from the tableview, once any row is selected, then app navigates to another view controller which shows the details of repository with editable text fields.
+12. User is allowed to edit and save the data, by pressing save button on the navigation bar
+13. The saved info can be seen on the tableview with its row selected  and highlighted.
+14. The changes made to the data will be saved to coredata.
 
 
 Design patterns used:
